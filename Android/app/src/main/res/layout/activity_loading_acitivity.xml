@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.heatex.Activities.LoadingAcitivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imagemMascoteCarregamento"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                app:srcCompat="@drawable/ic_carregando_mascote_circular" />
+
+            <TextView
+                android:id="@+id/textoCarregamentoTextView"
+                style="@style/TextoAuxiliarTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:minLines="3"
+                android:text="@string/projetando"
+                android:textAllCaps="true"
+                android:textSize="14sp" />
+
+            <ProgressBar
+                android:id="@+id/loadingProjetosProgressBar"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="@string/itens_projetados" />
+
+                <TextView
+                    android:id="@+id/contagemItensProjetadosTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="0" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:animateLayoutChanges="true"
+            android:clipToPadding="false"
+            android:gravity="bottom|center_horizontal"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <ImageButton
+                android:id="@+id/interromperImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@color/secondaryDarkColor"
+                android:contentDescription="@string/interromper"
+                android:minHeight="100dp"
+                android:padding="8dp"
+                app:srcCompat="@drawable/ic_keyboard_white_holo_dark" />
+
+            <ImageButton
+                android:id="@+id/vamosLaImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"
+                android:contentDescription="@string/vamos_la_button"
+                android:minHeight="100dp"
+                android:padding="8dp"
+                app:srcCompat="@drawable/ic_check_white_holo_dark" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

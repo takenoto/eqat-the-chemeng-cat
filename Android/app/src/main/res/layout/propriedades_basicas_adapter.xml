@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textNomeProp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="start|center_vertical"
+                    android:paddingLeft="8sp"
+                    android:paddingTop="16sp"
+                    android:paddingRight="8sp"
+                    android:paddingBottom="16sp"
+                    android:text="Capacidade Calorífica"
+                    android:textAllCaps="true"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textUnidadeProp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|end"
+                    android:minEms="6"
+                    android:paddingLeft="2sp"
+                    android:paddingTop="4sp"
+                    android:paddingRight="2sp"
+                    android:paddingBottom="4sp"
+                    android:text="kg/s"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textSiglaProp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:ems="3"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="8sp"
+                    android:text="Cp" />
+
+                <TextView
+                    android:id="@+id/textIgualSimbolo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:ems="3"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text=" = " />
+
+                <EditText
+                    android:id="@+id/valorPropEditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45sp"
+                    android:layout_weight="5"
+                    android:background="@color/colorCinzaClaro"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    android:paddingRight="10sp"
+                    android:shadowColor="@color/primaryTextColor"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

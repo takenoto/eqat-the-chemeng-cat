@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EQAT</string>
+    <string name="T_in_texto">Entrance temperature</string>
+    <string name="T_out_texto">Exit temperature</string>
+    <string name="Ud_texto">Overall heat transfer coefficient, d(design)</string>
+    <string name="action_settings">Settings</string>
+    <string name="alocacao">Allocation</string>
+    <string name="anulo">Annulus</string>
+    <string name="app_desc">EQAT - Chemical Engineering in use</string>
+    <string name="automatico">Auto</string>
+    <string name="baffle_b_texto">Baffle</string>
+    <string name="calor_trocado_q_texto">Heat exchanged</string>
+    <string name="compartilhar">Share</string>
+    <string name="concluido">Completed</string>
+</resources>

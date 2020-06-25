@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="4sp"
+    android:paddingBottom="4sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textNomeProp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capacidade Calorífica"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"></View>
+
+        <TextView
+            android:id="@+id/textUnidadeProp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/secondaryDarkColor"
+            android:gravity="right|end"
+            android:paddingLeft="16sp"
+            android:paddingTop="4sp"
+            android:paddingRight="16sp"
+            android:paddingBottom="4sp"
+            android:shadowColor="@color/colorAccent"
+            android:text="kg/s"
+            android:textColor="@android:color/white"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textSiglaProp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/secondaryDarkColor"
+            android:ems="4"
+            android:gravity="center_vertical"
+            android:paddingLeft="10sp"
+            android:text="Cp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/textIgualSimbolo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" = " />
+
+        <EditText
+            android:id="@+id/valorPropEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:paddingRight="10sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

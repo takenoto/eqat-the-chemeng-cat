@@ -1,0 +1,215 @@
+<resources>
+
+
+    <string name="app_name">Heatex</string>
+    <string name="app_ver">versão 0.01(alfa)</string>
+    <string name="title_home">Início</string>
+    <string name="title_projetos">Projetos</string>
+    <string name="title_configuracoes">Notificações</string>
+    <string name="title_activity_tabas_troc_cal">TabasTrocCalActivity</string>
+
+
+    <string name="fluidos">Fluidos</string>
+    <string name="fluido1">Fluido #1</string>
+    <string name="fluido2">Fluido #2</string>
+    <string name="design_e_material">Design &amp; Material</string>
+    <string name="nome_do_fluido">Nome do Fluido</string>
+    <string name="trocador_bitubular">Trocador de Calor Bitubular</string>
+
+    <string name="tipo_de_trocador">Tipo de trocador de calor</string>
+
+
+    <string name="mass_flux_sigla">W</string>
+    <string name="T_in_sigla">T_in</string>
+    <string name="T_out_sigla">T_out</string>
+    <string name="densidade_sigla">ρ</string>
+    <string name="cp_sigla">Cp</string>
+    <string name="k_condutividade_sigla">k</string>
+    <string name="k_condutividade_metal_sigla">k</string>
+    <string name="prandtl_sigla">Pr</string>
+    <string name="viscosidade_sigla">μ</string>
+    <string name="rugosidade_sigla">e</string>
+    <string name="diametro_interno_tubo_sigla">Di</string>
+    <string name="diametro_externo_tubo_sigla">Do</string>
+    <string name="diametro_interno_anulo_sigla">Ds</string>
+    <string name="diametro_externo_anulo_sigla">Dso</string>
+    <string name="comprimento_maximo_sigla">L_max</string>
+    <string name="fouling_interno_sigla">Rdi</string>
+    <string name="fouling_externo_sigla">Rdo</string>
+    <string name="hi_sigla">hi</string>
+    <string name="ho_sigla">ho</string>
+    <string name="vazio_sigla">""</string>
+    <string name="temp_media_sigla">T_media</string>
+    <string name="reynolds_sigla">Re</string>
+    <string name="temp_media_log_ΔTlm_sigla">ΔTlm</string>
+    <string name="Ud_sigla">Ud</string>
+    <string name="area_A_linear_sigla">A_lin</string>
+    <string name="area_A_total_sigla">A_tot</string>
+    <string name="numero_hp_hairpin_sigla">nºhp</string>
+    <string name="numero_tubos_sigla">nºtb</string>
+    <string name="comprimento_L_hairpin_sigla">L_hp</string>
+    <string name="queda_pressao_tubo_ΔPi_sigla">ΔPi</string>
+    <string name="queda_pressao_anulo_ΔPo_sigla">ΔPo</string>
+    <string name="queda_pressao_total_ΔP_sigla">ΔP</string>
+    <string name="over_design_sigla">Over-design(%)</string>
+    <string name="over_surface_sigla">Over-surface(%)</string>
+    <string name="fouling_over_surface_sigla">Fouling over-surface(%)</string>
+
+
+    <string name="kg_segundo_sigla">kg/s</string>
+    <string name="kelvin_sigla">K</string>
+    <string name="densidade_unidade_si">kg/m³</string>
+    <string name="cp_unidade_si">J/(Kg.K)</string>
+    <string name="k_condutividade_unidade_si">W/(m.K)</string>
+    <string name="pr_unidade_si">-</string>
+    <string name="viscosidade_unidade_si">cP</string>
+    <string name="rugosidade_unidade_si">mm</string>
+    <string name="diametro_unidade_si">mm</string>
+    <string name="comprimento_maximo_unidade_si">m</string>
+    <string name="fouling_interno_unidade_si">Rdi</string>
+    <string name="fouling_externo_unidade_si">Rdo</string>
+    <string name="hi_unidade_si">W/(m².K)</string>
+    <string name="ho_unidade_si">W/(m².K)</string>
+    <string name="area_unidade_si">m²</string>
+    <string name="area_linear_unidade_si">m²/m</string>
+    <string name="queda_pressao_unidade_si">Pa</string>
+    <string name="over_design_unidade">"%"</string>
+
+
+    <string name="mass_flux_texto">Fluxo Mássico</string>
+    <string name="T_in_texto">Temperatura de Entrada</string>
+    <string name="T_out_texto">Temperatura de Saída</string>
+    <string name="densidade_texto">Densidade</string>
+    <string name="cp_texto">Capacidade térmica a pressão constante</string>
+    <string name="k_condutividade_texto">Condutividade térmica</string>
+    <string name="pr_texto">Número adimensional de Prandtl</string>
+    <string name="viscosidade_texto">Viscosidade</string>
+    <string name="rugosidade_texto">Rugosidade</string>
+    <string name="diametro_interno_tubo_texto">Diâmetro interno do tubo</string>
+    <string name="diametro_externo_tubo_texto">Diâmetro externo do tubo</string>
+    <string name="diametro_interno_anulo_texto">Diâmetro interno do ânulo</string>
+    <string name="diametro_externo_anulo_texto">Diâmetro externo do ânulo</string>
+    <string name="comprimento_maximo_texto">Comprimento máximo</string>
+    <string name="fouling_interno_texto">Fouling interno</string>
+    <string name="fouling_externo_texto">Fouling externo</string>
+    <string name="hi_texto">Coeficiente interno de transferência de calor</string>
+    <string name="ho_texto">Coeficiente externo de transferência de calor</string>
+    <string name="tipo_fluido_texto">Tipo</string>
+    <string name="temp_media_texto">Temperatura média</string>
+    <string name="num_reynolds_texto">Número de Reynolds</string>
+    <string name="temp_media_log_ΔTlm_texto">Diferença de temperatura média logarítimica</string>
+    <string name="Ud_texto">Coeficiente global de transferência de calor, d(design)</string>
+    <string name="area_A_linear_texto">Área linear</string>
+    <string name="area_A_total_texto">Área total</string>
+    <string name="numero_hp_hairpin_texto">Número de hairpins</string>
+    <string name="numero_tubos_texto">Número de tubos</string>
+    <string name="comprimento_L_hairpin_texto">Comprimento do hairpin</string>
+    <string name="queda_pressao_tubo_ΔPi_texto">Queda de pressão no tubo</string>
+    <string name="queda_pressao_anulo_ΔPo_texto">Queda de pressão no ânulo</string>
+    <string name="queda_pressao_total_ΔP_texto">Queda de pressão total</string>
+    <string name="over_design_texto">Over-design</string>
+    <string name="over_surface_texto">Over-surface</string>
+    <string name="fouling_over_surface_texto">Fouling over-surface</string>
+    <string name="orientacao_texto">Orientação</string>
+    <string name="bonnet_type_return_texto">Retorno tipo Bonnet</string>
+    <string name="straight_type_return_texto">Retorno tipo Tubo-Reto??</string>
+    <string name="tipo_retorno_anulo_texto">Tipo de retorno - Ânulo</string>
+
+
+    <string name="interrogacoes">\???</string>
+    <string name="dados_de_operacao">Dados de Operação</string>
+    <string name="digite_aqui_o_nome_do_fluido">Digite aqui o nome do fluido</string>
+    <string name="temperatura_m_dia">Temperatura Média:</string>
+    <string name="propriedades_do_fluido">Propriedades do Fluido</string>
+    <string name="tubo">Tubo</string>
+    <string name="anulo">Ânulo</string>
+    <string name="testar_todos">Testar todos</string>
+    <string name="inserir_diametros">Inserir diâmetros</string>
+    <string name="hi_pre_determinada">Hi é pré-determinado.</string>
+    <string name="ho_predeterminada">Ho é pré-determinado.</string>
+    <string name="liquido">Líquido</string>
+    <string name="gas">Gás</string>
+    <string name="metal_liquido">Metal líquido</string>
+    <string name="menor_area_troca_otimizador">Menor área de troca térmica</string>
+    <string name="menor_perda_de_carga_otimizador">Menor perda de carga</string>
+    <string name="menor_produto_dp_area_otimizador">Menor produto (perda de carga x área de troca)</string>
+    <string name="coef_seguranca_minimo">Coeficiente de segurança mínimo</string>
+    <string name="paralelo">Paralelo</string>
+    <string name="contra_corrente">Contra-corrente</string>
+    <string name="alocacao">Alocação</string>
+    <string name="material_do_trocador">Material do Trocador</string>
+    <string name="di_metro">Diâmetro</string>
+    <string name="detalhes_de_projeto">Detalhes de Projeto</string>
+    <string name="projetando">Projetando</string>
+    <string name="itens_projetados">Itens projetados</string>
+    <string name="interromper">interromper</string>
+    <string name="coef_conveccao">Coeficientes de Convecção</string>
+    <string name="correlacao_coef_convec_interno_hi">Correlação para o cálculo do coeficiente interno de convecção, hi</string>
+    <string name="correlacao_coef_convec_externo_ho">Correlação para o cálculo do coeficiente externo de convecção, ho</string>
+    <string name="automatico">Automático</string>
+    <string name="correlacao_nao_pode_para_tubo">Essa correlação não pode ser usada para o tubo</string>
+    <string name="otimizador">Otimizador</string>
+    <string name="ok">OK</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="correlacao_empregada_tubo">Correlação empregada(tubo)</string>
+    <string name="correlacao_empregada_anulo">Correlação empregada(ânulo)</string>
+    <string name="correlacao_forcada">A correlação foi forçada</string>
+    <string name="title_activity_exibir_dados_projeto_unico">exibirDadosProjetoUnico</string>
+    <string name="erro_alerta">Erro</string>
+    <string name="tipo_de_retorno">Tipo de retorno</string>
+    <string name="selecione_padrao_projeto">Selecione o padrão de projeto</string>
+    <string name="selecione_configuracao">Selecione a configuração</string>
+    <string name="exibir_todos">Exibir todos</string>
+    <string name="aviso_evite_editar_numero_tubos">Evite editar esse campo manualmente.</string>
+    <string name="numero_de_tubos_precisa_ser_inteiro">O número de tubos precisa ser um número inteiro.</string>
+
+
+    <string name="mensagem_erro_calores_errados_trocador">Os valores do calor trocado(q) para os fluidos 1 e 2 são muito divergentes. Por favor, verifique os valores de Cp, Fluxo mássico e temperaturas e tente novamente. Você pode também aumentar a margem de segurança.</string>
+    <string name="mensagem_erro_valor_zerado">Algum valor é zero, o que impossibilita o projeto.</string>
+    <string name="mensagem_erro_diametros">O diâmetro externo do tubo, Do, ultrapassa ou é igual ao diâmetro interno do ânulo, Ds. </string>
+    <string name="mensagem_erro_temperaturas_cruzadas">As temperaturas se cruzam, isto é: um dos fluidos sai a uma temperatura maior do que a que o outro entra. </string>
+
+    <string name="botao_aba_troc_transition_name"></string>
+
+    <string name="estudar">Estudar</string>
+    <string name="salvar">Salvar</string>
+    <string name="de_nome_ao_projeto">Dê um nome a projeto</string>
+    <string name="esse_recurso_ainda_nao_disponivel">Esse recurso ainda não está disponível.</string>
+
+    <string name="trocador__de_calor">Trocador de Calor</string>
+    <string name="reator">Reator</string>
+    <string name="projeto_indefinido">Projeto indefinido</string>
+    <string name="zzz_foi_removido">zzzzz foi removido</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="calor_q_unidade">W</string>
+    <string name="calor_trocado_q_texto">Calor trocado</string>
+    <string name="calor_q_sigla">q</string>
+    <string name="lista_de_projetos">Lista de projetos</string>
+    <string name="comprimento_L_sigla">L</string>
+    <string name="trocador_de_calor_multitubular_hairpin">Trocador de Calor Multitubular(hairpin)</string>
+    <string name="trocador_casco_e_tubos">Trocador Casco e tubos</string>
+    <string name="desfazer">Desfazer</string>
+    <string name="comprimento_acumulado">Comprimento acumulado</string>
+
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="menu_home">Home</string>
+
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string-array name="materiais_troc_bitub_array">
+        <item>Aço carbono, 0.5% C, novo</item>
+        <item>Aço carbono, 0.5% C, levemente corroído</item>
+        <item>Aço carbono, 1.5% C, novo</item>
+        <item>Aço carbono, 1.5% C, levemente corroído</item>
+        <item>Aço inox</item>
+        <item>Alumínio</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+
+    <string-array name="frases_carregamento">
+        <item>Botando a culpa no estagiário</item>
+        <item>Estudando termodinâmica</item>
+        <item>Procurando na internet</item>
+        <item>Pedindo ajuda aos universitários</item>
+        <item>Fazendo o balanço de massa</item>
+        <item>Fazendo o balanço de energia</item>
+        <item>Tentando pegar o livro na biblioteca</item>
+        <item>Rabiscando furiosamente</item>
+        <item>Apontando o lápis</item>
+        <item>Consultando notas de aula</item>
+        <item>Determinando o número de tubos</item>
+        <item>Conferindo as contas</item>
+        <item>Cadê aquele parafuso…</item>
+        <item>Polindo o equipamento</item>
+        <item>Simulando o modelo</item>
+    </string-array>
+
+
+
+    <!-->ITENS DO SUMÁRIO<!-->
+    <string-array name="sumario_troc_bitubular_grampo_array">
+        <item>Conferir entrada</item>
+        <item>Balanço de energia</item>
+        <item>Obter dados</item>
+        <item>Escolher diâmetros/configuração</item>
+        <item>Coeficiente de convecção interno</item>
+        <item>Coeficiente de convecção externo</item>
+        <item>Comprimento e número de trocadores</item>
+        <item>Cálculo da perda de carga</item>
+    </string-array>
+
+
+    <!-->EXPLICAÇÕES<!-->
+    <string name="eq_nao_encontrada">###\n式\nA equação não pode ser carregada.\n###</string>
+    <string name="エラー">Um erro bastante suspeito ocorreu. Deve ser coisa do debug!</string>
+    <string name="explicar_balanco_massa">O balanço de massa pode ser feito a partir da equação.</string>
+    <string name="explicar_balanco_energia">O balanço de energia pode ser feito a partir da equação.</string>
+
+    <string name="conferir_entrada_explic_licao">A primeira etapa para o projeto de um trocador de calor é verificar os dados de entrada. Devemos determinar os fluidos de operação, e atentar para as temperaturas máxima e mínima de operação, buscando assegurar segurança e eficiência ao processo.</string>
+    <string name="balanco_de_energia_explic_licao">O processo de balanço de energia é essencial para a estimativa das dimensões de um equipamento voltado à troca de energia térmica. \nPelo balanço de massa e assumindo que não há troca com o meio externo, a primeira condição de contorno é que o ganho de energia de um fluido deve resultar da perda de energia do outro (conservação de energia). Ou seja: assumimos que a troca térmica ocorre apenas entre os fluidos, não havendo outros elementos que troquem calor.</string>
+    <string name="balanco_de_energia_taxa_calor_explic_licao">A taxa de transferência de calor é definida como:</string>
+    <string name="balanco_de_energia_taxa_calor_simbolos_explic_licao">Onde \nU é o coeficiente global de troca térmica.\nΔT é a diferença média de temperatura. </string>
+    <string name="calculo_dtml_lmtd_explic_licao">O cálculo da diferença média logarítmica de temperatura pode ser feito por:</string>
+    <string name="calculo_dtml_var_licao" translatable="false">ΔTml = ???@@@??? K</string>
+    <string name="calculo_dtml_lmtd_2_explic_licao">Onde ΔT1 representa a diferença de temperaturas no terminal de entrad, e ΔT2 a diferença de temperaturas no terminal de saída dos fluidos.</string>
+
+    <string name="balanco_de_energia_taxa_calor_um_fluido_explic_licao">O calor trocado por um fluido pode ser calculado por:</string>
+    <string name="obter_dados_explic_licao">Os dados devem ser obtidos a partir da temperatura média de operação do fluido em literatura especializada.</string>
+    <string name="escolher_config_explic_licao">O diâmetro do tubo interno, bem como o número de tubos e o diâmetro do ânulo deve ser selecionado. Em seguida, devemos determinar o tamanho máximo aceitável para o trocador, ou o tamanho do tubo de projeto, a depender da estratégia de design adotada.</string>
+    <string name="escolher_config_alocacao_explic_licao">Devemos escolher a alocação, ou seja, qual fuido vai no tubo interno e qual vai no ânulo. Para isso, devemos obedecer alguns critérios, como:\n Alocar o fluido mais tóxico nos tubos, uma vez que, em caso de vazamento, ele irá para o ânulo, fornecendo alguma proteção a mais aos trabalhadores;\nAlocar o fluido mais corrosivo nos tubos, uma vez que, no ânulo, ele corroeria tanto o ânulo/casco quanto os tubos, o que poderia reduzir consideravelmente a vida útil do trocador de calor;\nBuscar alocar o fluido mais viscoso na região que lhe dê maiores coeficientes de transferência térmica, atentando, ainda, para a perda de carga.</string>
+    <string name="coef_conveccao_texto_explic_licao">Para obtenção do coeficiente de convecção, será necessário empregar os números de Prandtl e de Reynolds para, a partir das características do escoamento, encontrar o valor desejado através do uso de uma correlação apropriada.</string>
+    <string name="coef_conveccao_correlacao_empregada_tubo_explic_licao">Correlação empregada(tubo): CORRELACAO_NOME</string>
+    <string name="coef_conveccao_correlacao_empregada_anulo_explic_licao">Correlação empregada(ânulo): CORRELACAO_NOME</string>
+
+
+
+
+    <!-->//TODO
+    <!-->
+
+    <!-->EQUAÇÕES<!-->
+    <!-->COLOCA UM PARSER LÁ  NO JAVA PRA TRANSFORMAR EM ALGO BONITO!<!-->
+    <!-->
+    _[   subscrito   ]_
+    [[    superscrito   ]]
+    / divisão: coloca tudo antes num acima e tudo depois abaixo, num layout!
+    //TODO faz um layout linear vertical centralizado no centro -> texto1, divider, texto 2
+    aí substitui as coisas nele
+
+    <!-->
+    <string name="eq_balanco_massa">m_[1, entra]_ = m_[1, sai]_</string>
+
+
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_projetar">
+
+    <fragment
+        android:id="@+id/nav_projetar"
+        android:name="com.renanmendes.eqat.ui.home.HomeFragment"
+        android:label="@string/menu_projetar"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_armazem"
+        android:name="com.example.heatex.Fragments.exibirProjetosAtividadePrincipalFragment"
+        android:label="@string/menu_armazem"
+        tools:layout="@layout/activity_listagem_projetos" />
+
+    <fragment
+        android:id="@+id/nav_estudar"
+        android:name="com.renanmendes.eqat.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_estudar"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.renanmendes.eqat.ui.tools.ToolsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.renanmendes.eqat.ui.share.ShareFragment"
+        android:label="@string/menu_sobre_o_app"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_sobre_o_app"
+        android:name="com.renanmendes.eqat.ui.send.SendFragment"
+        android:label="@string/menu_configuracoes"
+        tools:layout="@layout/fragment_send" />
+
+
+    <fragment
+        android:id="@+id/nav_frag_branco"
+        android:name="com.renanmendes.eqat.ui.tools.BrancoFragment"
+        android:label="branco"
+        tools:layout="@layout/fragment_branco_para_navigation" />
+
+</navigation>
